@@ -1,5 +1,13 @@
 <h1 align="center">docker-stormCI</h1>
 
+### Deploying and running our container
+To create and run our container, we can use the following command syntax:
+
+```
+docker-compose -f "docker-compose.yml" up -d --build
+docker-compose exec build-kernel bash
+```
+
 # License
 ```xml
 Copyright 2019 danascape (Saalim Quadri)
